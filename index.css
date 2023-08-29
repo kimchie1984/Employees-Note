@@ -1,0 +1,106 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 253, 253);
+    text-align: center;
+    user-select: none;
+}
+
+/*reusable css */
+
+h1,
+h2,
+.btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+textarea,
+p,
+.message-list-container {
+    font-family: 'Inter', sans-serif;
+    font-weight: regular;
+}
+
+
+h1,
+textarea,
+textarea::placeholder,
+.btn,
+h2,
+.message-list-container,
+p {
+    color: #5a3000;
+}
+
+
+textarea, 
+.message-list-container {
+    Font-size: 15px;
+}
+
+
+textarea, 
+btn {
+     border-radius: 8px;
+}
+
+
+/* <-----------------------> */
+
+h1 {
+    font-size: 25px;
+    margin: 17px 0 19px 0;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 320px;
+}
+
+img {
+    width: 90px;
+}
+
+textarea {
+    width: 317px;
+    height: 118px;
+    background-color: #ffd6a0;
+    border-style: none;
+    resize: none;
+}
+
+textarea::placeholder {
+    padding: 10px 0 0 10px;
+}
+
+.btn {
+
+    padding: 15px 125px;
+    background-color: #ff8d0b;
+    border-color: #5a3000;
+    Font-size: 21px;
+    text-align: Center;
+    margin: 13px 0 0 0;
+}
+
+h2 {
+    margin: 22px 0 13px 0;
+    font-size: 20px;
+}
+
+
+p {
+    width: 295px;
+    text-align: justify;
+    font-size: 12px;
+    border: 2px solid #5a3000;
+    border-radius: 5px;
+    height: 72px;
+    margin: 13px auto;
+    background-color: #fff;
+    padding: 13px 15px 11px 15px;
+    overflow: auto;
+}
